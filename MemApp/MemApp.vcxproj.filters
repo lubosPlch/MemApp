@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{878d7c9b-4037-45d1-8500-e4a036ca018f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{6f1928d1-e761-49f4-9ee7-e01bcd371452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{cfc79e6e-f7cd-4183-bd6e-d72bc59b3496}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_MemApp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\Request.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Request.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Request.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="view\MemApp.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemApp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemApp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\User.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Token.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Data.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Error.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\DataObject.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="view\MainWindow.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Project.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Projects.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Projects.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Projects.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoginClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\LoginClient.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\HttpClient.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\ProjectClient.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProjectClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProjectClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MemApp.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MemApp.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Http\Request.h">
+      <Filter>Http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view\MemApp.h">
+      <Filter>view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Model\Token.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProjectsWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view\MainWindow.h">
+      <Filter>view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Model\Projects.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Http\LoginClient.h">
+      <Filter>Http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Http\HttpClient.h">
+      <Filter>Http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Http\ProjectClient.h">
+      <Filter>Http</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_MemApp.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\User.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Data.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Error.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\DataObject.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ProjectsWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Project.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MemApp.rc" />
+  </ItemGroup>
+</Project>
